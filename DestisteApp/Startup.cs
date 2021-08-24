@@ -33,8 +33,9 @@ namespace DestisteApp
                     Configuration.GetConnectionString("DefaultConnection")));
            // services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+             
             services.AddControllersWithViews();
         }
 
@@ -64,7 +65,7 @@ namespace DestisteApp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Operation}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

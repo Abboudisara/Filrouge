@@ -152,3 +152,7 @@ C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Opera
 C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Operation\Edit.cshtml.g.cs
 C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Operation\Details.cshtml.g.cs
 C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Operation\Delete.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Admin\CreateRole.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Admin\ListRoles.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Admin\EditeRole.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Admin\EditeUsersInRole.cshtml.g.cs

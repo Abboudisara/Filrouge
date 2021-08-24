@@ -1,4 +1,5 @@
 ﻿using DestisteApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace DestisteApp.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class OperationController : Controller
     {
         private readonly ApplicationDbContext _db;

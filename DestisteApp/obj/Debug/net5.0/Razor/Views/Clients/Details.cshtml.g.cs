@@ -27,7 +27,7 @@ using DestisteApp.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f93a44d4649dd70755f04be7afe994d6d4f1a432", @"/Views/Clients/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d3c47758619e837ad5fe94b49747b34dc3afbe41", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c5205ab0d0bd4c9fe19dfe80530188f0a38576ab", @"/Views/_ViewImports.cshtml")]
     public class Views_Clients_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<DestisteApp.Models.ReservationModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

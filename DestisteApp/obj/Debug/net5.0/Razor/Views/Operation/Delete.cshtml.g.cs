@@ -27,7 +27,7 @@ using DestisteApp.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"922e458560ec4a043d1028a0f271957f96f8360e", @"/Views/Operation/Delete.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d3c47758619e837ad5fe94b49747b34dc3afbe41", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c5205ab0d0bd4c9fe19dfe80530188f0a38576ab", @"/Views/_ViewImports.cshtml")]
     public class Views_Operation_Delete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<DestisteApp.Models.OperationModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

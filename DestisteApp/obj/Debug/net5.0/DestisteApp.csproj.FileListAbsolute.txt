@@ -164,3 +164,4 @@ C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Clien
 C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Clients\Operation.cshtml.g.cs
 C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Secritaire\Index.cshtml.g.cs
 C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Secritaire\Edit.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Secritaire\Delete.cshtml.g.cs

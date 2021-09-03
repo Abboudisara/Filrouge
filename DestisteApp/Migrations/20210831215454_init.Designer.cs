@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DestisteApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210819105804_init")]
+    [Migration("20210831215454_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -112,6 +112,9 @@ namespace DestisteApp.Migrations
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    b.Property<string>("Confirmation")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
 
                     b.Property<string>("User_id")
                         .HasColumnType("varchar(255) CHARACTER SET utf8mb4");

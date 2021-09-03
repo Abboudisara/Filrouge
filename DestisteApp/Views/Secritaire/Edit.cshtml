@@ -1,0 +1,58 @@
+﻿@model DestisteApp.Models.ReservationModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Confirmation</h1>
+
+<h4>ReservationModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @*<div class="form-group">
+            <label asp-for="id" class="control-label"></label>
+            <input asp-for="id" class="form-control" />
+            <span asp-validation-for="id" class="text-danger"></span>
+        </div>*@
+            <div class="form-group">
+                @*<label asp-for="dateTme" class="control-label"></label>*@
+                <input asp-for="dateTme" class="form-control" type="hidden" />
+                @*<span asp-validation-for="dateTme" class="text-danger"></span>*@
+            </div>
+            <div class="form-group">
+                @*<label asp-for="operationid" class="control-label"></label>*@
+                <input asp-for="operationid" class="form-control" type="hidden" />
+                @*<span asp-validation-for="operationid" class="text-danger"></span>*@
+            </div>
+            <div class="form-group">
+                @*<label asp-for="User_id" class="control-label"></label>*@
+                <input asp-for="User_id" class="form-control" type="hidden" />
+                @*<span asp-validation-for="User_id" class="text-danger"></span>*@
+            </div>
+            <div class="form-group">
+
+
+                <select asp-for="Confirmation">
+                    <option selected disabled>--Select Confirmation--</option>
+                    <option>Accept</option>
+                    <option>Refuse</option>
+                </select>
+            </div>
+               
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

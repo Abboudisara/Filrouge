@@ -1,0 +1,57 @@
+﻿@model IEnumerable<DestisteApp.Models.ReservationModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Appointement Dr</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            @*<th>
+            @Html.DisplayNameFor(model => model.id)
+        </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.dateTme)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.operationid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Confirmation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            @*<td>
+            @Html.DisplayFor(modelItem => item.id)
+        </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.dateTme)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.operationid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Confirmation)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "btn btn-primary" })|
+                @*@Html.ActionLink("Details", "Details", new { id = item.User_id }, new { @class = "btn btn-success" }) |*@
+                @Html.ActionLink("Delete", "Delete", new { id = item.User_id }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

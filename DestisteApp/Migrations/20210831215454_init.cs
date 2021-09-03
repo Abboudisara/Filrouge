@@ -177,7 +177,8 @@ namespace DestisteApp.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     dateTme = table.Column<DateTime>(nullable: false),
                     operationid = table.Column<int>(nullable: false),
-                    User_id = table.Column<string>(nullable: true)
+                    User_id = table.Column<string>(nullable: true),
+                    Confirmation = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

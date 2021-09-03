@@ -156,3 +156,11 @@ C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Admin
 C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Admin\ListRoles.cshtml.g.cs
 C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Admin\EditeRole.cshtml.g.cs
 C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Admin\EditeUsersInRole.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Clients\Index.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Clients\Create.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Clients\Edit.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Clients\Details.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Clients\Delete.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Clients\Operation.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Secritaire\Index.cshtml.g.cs
+C:\Users\Youcode\Desktop\Filrouge\DestisteApp\obj\Debug\net5.0\Razor\Views\Secritaire\Edit.cshtml.g.cs

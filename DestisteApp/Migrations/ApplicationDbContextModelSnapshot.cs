@@ -111,6 +111,9 @@ namespace DestisteApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<string>("Confirmation")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
                     b.Property<string>("User_id")
                         .HasColumnType("varchar(255) CHARACTER SET utf8mb4");
 

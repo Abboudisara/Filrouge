@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DestisteApp.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
 

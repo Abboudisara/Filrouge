@@ -24,6 +24,7 @@ namespace DestisteApp.Models
 
         [ForeignKey("User_id")]
         public ApplicationUser User { get; set; }
+        public string Confirmation { get; set; }
 
     }
 }

@@ -66,6 +66,18 @@ namespace DestisteApp.Controllers
             return RedirectToAction("Index");
 
         }
+
+     [HttpGet]
+     public async Task<IActionResult> Index(string Rndvsearch)
+        {
+            ViewData["getRndvDetails"] = Rndvsearch;
+            var rdvquery = from x in _db.Reservations.Include(c => c.User) select x;
+            if (!string.IsNullOrEmpty(Rndvsearch))
+            {
+                rdvquery = rdvquery.Where(x => x.Confirmation.Contains(Rndvsearch) || x.User.Name.Contains(Rndvsearch) || x.User.Fullname.Contains(Rndvsearch));
+            }
+            return View(await rdvquery.AsNoTracking().ToListAsync());
+        }
     }
 
 }

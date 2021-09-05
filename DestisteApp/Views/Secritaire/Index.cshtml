@@ -4,8 +4,15 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Appointement Dr</h1>
+<h2 class="text-info">Appointement Dr</h2>
 
+<form asp-action="Index" method="get">
+    <p>
+        <input type="search" placeholder="Enter Date or Confirmation" class="rounded" value="@ViewData["getRndvDetails"]" name="Rndvsearch" style="width:800px" />
+        <input type="submit" value="Search" class="btn btn-warning" /> |
+        <a asp-action="Index">Get All Appointement</a>
+    </p>
+</form>
 
 <table class="table">
     <thead>

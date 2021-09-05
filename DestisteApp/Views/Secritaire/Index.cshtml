@@ -23,6 +23,15 @@
                 @Html.DisplayNameFor(model => model.User.Email)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.User.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.Fullname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.PhoneNumber)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Confirmation)
             </th>
             <th></th>
@@ -44,12 +53,21 @@
                 @Html.DisplayFor(modelItem => item.User.Email)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.User.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Fullname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.PhoneNumber)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Confirmation)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "btn btn-info" })|
                 @*@Html.ActionLink("Details", "Details", new { id = item.User_id }, new { @class = "btn btn-success" }) |*@
-                @Html.ActionLink("Delete", "Delete", new { id = item.id}, new { @class = "btn btn-warning" })
+                @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "btn btn-warning" })
             </td>
         </tr>
 }
